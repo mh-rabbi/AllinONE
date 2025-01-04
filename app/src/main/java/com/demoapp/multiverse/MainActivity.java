@@ -21,14 +21,14 @@ import java.util.regex.Pattern;
 public class MainActivity extends AppCompatActivity {
 
     String[] predefinedUrls = {
-            "https://www.nytimes.com",         // The New York Times
-            "https://www.theguardian.com",    // The Guardian
-            "https://www.wsj.com",            // The Wall Street Journal
-            "https://www.washingtonpost.com", // The Washington Post
-            "https://www.bbc.com/news",       // BBC News
-            "https://www.cnn.com",            // CNN
-            "https://www.aljazeera.com",      // Al Jazeera
-            "https://www.reuters.com"         // Reuters
+            "https://www.thedailystar.net/",
+            "https://www.channel24bd.tv/",
+            "https://www.prothomalo.com/",
+            "https://www.bd-pratidin.com/",
+            "https://www.bbc.com/news",
+            "https://dainikamadershomoy.com/",
+            "https://www.aljazeera.com",
+            "https://gazitv.com/"
     };
     EditText edtUrl;
     ImageView edtSearch;
@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
+       // EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
 
         edtUrl = findViewById(R.id.edt_url);
@@ -61,10 +61,13 @@ public class MainActivity extends AppCompatActivity {
                     Matcher matcher = pattern.matcher(url);
 
                     if (matcher.matches()){
-                       // myWeb.loadUrl(url);
-                    }else{
+                        Intent intent = new Intent(MainActivity.this, WebViewActivity.class);
+                        intent.putExtra("url", url);
+                        startActivity(intent);
+                        // myWeb.loadUrl(url);
+                    }/*else{
                        // myWeb.loadUrl("https://www.google.com/search?q="+ url);
-                    }
+                    }*/
                 }
             }
         });

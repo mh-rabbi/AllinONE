@@ -17,6 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <EditText
+            android:layout_marginLeft="10dp"
             android:hint="search your need"
             android:layout_width="0dp"
             android:layout_height="60dp"
@@ -59,7 +60,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="Google"
+                android:text="The Daily Star"
                 android:textColor="#FFFFFF"
                 android:textStyle="bold" />
         </FrameLayout>
@@ -79,7 +80,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="Google"
+                android:text="Channel24"
                 android:textColor="#FFFFFF"
                 android:textStyle="bold" />
         </FrameLayout>
@@ -99,7 +100,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="Google"
+                android:text="প্রথম আলো"
                 android:textColor="#FFFFFF"
                 android:textStyle="bold" />
         </FrameLayout>
@@ -119,7 +120,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="Google"
+                android:text="বাংলাদেশ প্রতিদিন"
                 android:textColor="#FFFFFF"
                 android:textStyle="bold" />
         </FrameLayout>
@@ -139,7 +140,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="Google"
+                android:text="BBC News"
                 android:textColor="#FFFFFF"
                 android:textStyle="bold" />
         </FrameLayout>
@@ -159,7 +160,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="Google"
+                android:text="আমাদের সময়"
                 android:textColor="#FFFFFF"
                 android:textStyle="bold" />
         </FrameLayout>
@@ -178,7 +179,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="Google"
+                android:text="Aljazeera"
                 android:textColor="#FFFFFF"
                 android:textStyle="bold" />
         </FrameLayout>
@@ -198,7 +199,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="Google"
+                android:text="GaziTV"
                 android:textColor="#FFFFFF"
                 android:textStyle="bold" />
         </FrameLayout>
