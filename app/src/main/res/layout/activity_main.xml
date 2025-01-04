@@ -17,6 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <EditText
+            android:hint="search your need"
             android:layout_width="0dp"
             android:layout_height="60dp"
             android:layout_weight="1"
@@ -49,7 +50,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="4dp"
-            android:background="#FF6200EE"
+            android:background="#228b22"
             android:clickable="true"
             android:focusable="true">
 
@@ -69,7 +70,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="4dp"
-            android:background="#FF6200EE"
+            android:background="#954535"
             android:clickable="true"
             android:focusable="true">
 
@@ -89,7 +90,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="4dp"
-            android:background="#FF6200EE"
+            android:background="#954535"
             android:clickable="true"
             android:focusable="true">
 
@@ -109,7 +110,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="4dp"
-            android:background="#FF6200EE"
+            android:background="#228b22"
             android:clickable="true"
             android:focusable="true">
 
@@ -129,7 +130,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="4dp"
-            android:background="#FF6200EE"
+            android:background="#228b22"
             android:clickable="true"
             android:focusable="true">
 
@@ -149,7 +150,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="4dp"
-            android:background="#FF6200EE"
+            android:background="#954535"
             android:clickable="true"
             android:focusable="true">
 
@@ -168,7 +169,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="4dp"
-            android:background="#FF6200EE"
+            android:background="#954535"
             android:clickable="true"
             android:focusable="true">
 
@@ -188,7 +189,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="4dp"
-            android:background="#FF6200EE"
+            android:background="#228b22"
             android:clickable="true"
             android:focusable="true">
 
