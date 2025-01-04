@@ -7,14 +7,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#e0b0ff"
+    >
 
     <!-- Search Bar -->
-    <SearchView
-        android:id="@+id/search_bar"
+    <LinearLayout
+        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:queryHint="Enter URL" />
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:id="@+id/edt_url"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight=".2"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:src="@drawable/baseline_search_24"
+            android:id="@+id/edt_search"/>
+    </LinearLayout>
 
     <!-- 8-item GridLayout -->
     <GridLayout
@@ -25,7 +40,7 @@
         android:rowCount="4"
         android:padding="8dp"
         android:layout_marginTop="16dp"
-        android:gap="8dp">
+        android:layout_margin="8dp">
 
         <!-- Grid Items will link to a URL) -->
         <FrameLayout
@@ -79,7 +94,7 @@
             android:focusable="true">
 
             <TextView
-                android:id="@+id/item_1"
+                android:id="@+id/item_3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
@@ -99,7 +114,7 @@
             android:focusable="true">
 
             <TextView
-                android:id="@+id/item_1"
+                android:id="@+id/item_4"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
@@ -119,7 +134,7 @@
             android:focusable="true">
 
             <TextView
-                android:id="@+id/item_1"
+                android:id="@+id/item_5"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
@@ -139,7 +154,7 @@
             android:focusable="true">
 
             <TextView
-                android:id="@+id/item_1"
+                android:id="@+id/item_6"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
@@ -158,7 +173,7 @@
             android:focusable="true">
 
             <TextView
-                android:id="@+id/item_1"
+                android:id="@+id/item_7"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
@@ -178,7 +193,7 @@
             android:focusable="true">
 
             <TextView
-                android:id="@+id/item_1"
+                android:id="@+id/item_8"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
