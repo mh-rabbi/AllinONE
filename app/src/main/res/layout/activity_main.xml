@@ -19,6 +19,7 @@
         <EditText
             android:layout_marginLeft="10dp"
             android:hint="search your need"
+            android:textColor="@color/black"
             android:layout_width="0dp"
             android:layout_height="60dp"
             android:layout_weight="1"
